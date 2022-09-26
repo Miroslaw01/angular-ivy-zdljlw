@@ -7,14 +7,13 @@ import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.comp
 import { RecipeItemComponent } from './recipe/recipe-list/recipe-item.component';
 import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
 import { RecipeComponent } from './recipe/recipe.component';
+import { ShoppingListAddComponent } from './shopping-list/shopping-list-add.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
-  imports:      [ 
-    BrowserModule,
-  ],
+  imports: [BrowserModule],
 
-  declarations: [ 
+  declarations: [
     AppComponent,
     HeaderComponent,
     RecipeComponent,
@@ -22,10 +21,9 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
+    ShoppingListAddComponent,
   ],
 
-  bootstrap:    [ 
-    AppComponent, 
-  ]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
