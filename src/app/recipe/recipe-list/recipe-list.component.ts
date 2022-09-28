@@ -10,11 +10,23 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   @Output() recipeSelected = new EventEmitter<Recipe>();
 
-  recipe = new Recipe(
-    'Dummy',
-    'Dummy',
-    'https://cdn-icons-png.flaticon.com/512/1256/1256397.png'
-  );
+  recipes: Recipe[] = [
+    new Recipe(
+    'mhmh',
+    'mhmh',
+    'https://i.kym-cdn.com/entries/icons/original/000/022/134/elmo.jpg'
+  ),
+  new Recipe(
+    'mhmh2',
+    'mhmh2',
+    'https://c.tenor.com/3z4G6A1_vpwAAAAM/monty-python-black-knight.gif'
+  ),
+  new Recipe(
+    'mhmh3',
+    'mhmh3',
+    'https://static.giga.de/wp-content/uploads/2018/01/y-tho-meme.jpg'
+  ) 
+];
 
   selectedRecipe: Recipe;
 
