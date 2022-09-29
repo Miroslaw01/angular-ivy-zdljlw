@@ -21,9 +21,9 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
     ShoppingListComponent,
     RecipeListComponent,
     RecipeItemComponent,
-    RecipeDetailComponent,
     ShoppingListAddComponent,
     DropdownDirective,
+    RecipeDetailComponent,
   ],
 
   bootstrap: [AppComponent],
