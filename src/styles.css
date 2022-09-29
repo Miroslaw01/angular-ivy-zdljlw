@@ -3,3 +3,6 @@
 body {
   padding: 40px;
 }
+div.btn-group.open ul.dropdown-menu {
+  display: block;
+}
