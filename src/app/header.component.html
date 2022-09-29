@@ -9,17 +9,18 @@
     <li>
       <div class="dropdown" appDropdown>
         <button
-          class="btn btn-primary dropdown-toggle"
+          id="dLabel"
           type="button"
-          data-bs-toggle="dropdown"
+          aria-haspopup="true"
           aria-expanded="false"
+          class="btn btn-primary"
         >
-          Dropdown button
+          Dropdown trigger
+          <span class="caret"></span>
         </button>
-        <ul class="dropdown-menu" appDropdown>
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li><a href="#">Speichern</a></li>
+          <li><a href="#">Laden</a></li>
         </ul>
       </div>
     </li>
