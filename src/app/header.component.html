@@ -7,16 +7,15 @@
       <a class="nav-link" href="#">Einkaufsliste</a>
     </li>
     <li>
-      <div class="dropdown" DropdownDirective>
+      <div class="dropdown" appDropdown>
         <button
           id="dLabel"
-          class="btn btn-primary dropdown-toggle"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
+          type="button"
           aria-haspopup="true"
+          aria-expanded="false"
+          class="btn btn-primary"
         >
-          Dropdown link
+          Dropdown trigger
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dLabel">
