@@ -7,15 +7,16 @@
       <a class="nav-link" href="#">Einkaufsliste</a>
     </li>
     <li>
-      <div class="btn-group" appDropdown #r="appDropdown">
-        <button
-          type="button"
+      <div class="btn-group" appDropdown>
+        <a
           class="btn btn-primary dropdown-toggle"
-          data-bstoggle="dropdown"
+          href="#"
+          role="button"
+          aria-expanded="false"
         >
-          Manage Recipe
-        </button>
-        <ul class="dropdown-menu" [ngClass]="{ show: r.isOpen }">
+          Dropdown link
+        </a>
+        <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">To shopping list</a></li>
           <li><a class="dropdown-item" href="#">Edit Recipe</a></li>
           <li><a class="dropdown-item" href="#">Delete Recipe</a></li>
