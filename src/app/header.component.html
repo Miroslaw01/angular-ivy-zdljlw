@@ -11,16 +11,17 @@
         <button
           id="dLabel"
           type="button"
+          data-bs-toggle="appDropdown"
           aria-haspopup="true"
           aria-expanded="false"
-          class="btn btn-primary"
+          class="btn btn-primary dropdown-toggle"
         >
           Dropdown trigger
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dLabel">
-          <li><a href="#">Speichern</a></li>
-          <li><a href="#">Laden</a></li>
+          <li><a class="dropdown-item" href="#">Speichern</a></li>
+          <li><a class="dropdown-item" href="#">Laden</a></li>
         </ul>
       </div>
     </li>
